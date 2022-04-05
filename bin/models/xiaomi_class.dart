@@ -4,7 +4,8 @@ class Xiaomi extends Phone with PhoneSystem {
   Xiaomi(String model, int id, String madeIn) : super(model, id, madeIn);
 
   @override
-  void addContact() {}
+  void addContact() {
+  }
 
   @override
   void call() {}
